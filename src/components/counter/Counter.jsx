@@ -1,5 +1,5 @@
 import {useDispatch, useSelector} from "react-redux";
-import {decrement, increment, setCustom} from "../../redux/state/counter/CounterSlice.js";
+import {increment, decrement , setCustom} from "../../redux/state/counter/CounterSlice.js";
 import {useRef} from "react";
 
 

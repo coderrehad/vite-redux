@@ -1,8 +1,10 @@
 import {configureStore} from "@reduxjs/toolkit";
-import counterSlice from "../state/counter/CounterSlice.js";
+import CounterSlice from "../state/counter/CounterSlice.js";
+import TodoSlice from "../state/todo/TodoSlice.js";
 
 export default configureStore({
     reducer:{
-        counter:counterSlice
+        counter:CounterSlice,
+        todo:TodoSlice
     }
 })
